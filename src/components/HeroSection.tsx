@@ -1,19 +1,25 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { DeveloperIllustration } from "./DeveloperIllustration";
+import { motion } from "framer-motion";
 
 export function HeroSection() {
   return (
     <section className="min-h-screen flex items-center pt-20">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6">
+          <motion.div 
+            className="space-y-6"
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+          >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
               Hi, I'm <span className="text-primary">Priyanshi</span> 👋
             </h1>
             <p className="text-muted-foreground max-w-lg leading-relaxed">
-              An aspiring Software Developer 🚀 having an experience of building Web applications 
-              with JavaScript / Reactjs / Nodejs / Express and some other cool libraries and frameworks.
+              Building Web applications with JavaScript / Reactjs / Nodejs / Express 
+              and some other cool libraries and frameworks.
             </p>
 
             <div className="flex items-center gap-4">
@@ -55,11 +61,16 @@ export function HeroSection() {
                 <a href="#projects">View Projects</a>
               </Button>
             </div>
-          </div>
+          </motion.div>
 
-          <div className="hidden lg:flex justify-center">
+          <motion.div 
+            className="flex justify-center"
+            initial={{ opacity: 0, x: 50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+          >
             <DeveloperIllustration />
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
