@@ -14,19 +14,6 @@ const experiences = [
       "Focused on layout structure, basic styling, client-side logic, usability, and meeting task deadlines",
     ],
   },
-  {
-    title: "Full-Stack Developer",
-    company: "College Event Hub",
-    type: "Academic Project",
-    period: "Jan 2025 – May 2025",
-    description: [
-      "Designed and developed a full-stack college event management system",
-      "Implemented role-based access for students, admins, and volunteers",
-      "Developed responsive frontend interfaces using HTML, CSS, and JavaScript",
-      "Built backend APIs using Node.js and Express with JWT-based authentication",
-      "Managed data storage using MySQL and integrated email notifications",
-    ],
-  },
 ];
 
 export function ExperienceSection() {
@@ -34,7 +21,10 @@ export function ExperienceSection() {
     <section id="experience" className="py-20 bg-muted/30">
       <div className="container mx-auto px-6">
         <AnimatedSection>
-          <h2 className="text-3xl font-bold mb-12">Work Experience</h2>
+          <h2 className="text-3xl font-bold mb-2">Work Experience</h2>
+          <p className="text-muted-foreground mb-12">
+            Practical experience through academic projects.
+          </p>
         </AnimatedSection>
 
         <div className="max-w-3xl space-y-8">

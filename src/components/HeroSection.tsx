@@ -11,9 +11,6 @@ export function HeroSection() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
               Hi, I'm <span className="text-primary">Priyanshi</span> 👋
             </h1>
-            <h2 className="text-xl md:text-2xl text-muted-foreground font-medium">
-              Aspiring Software Developer
-            </h2>
             <p className="text-muted-foreground max-w-lg leading-relaxed">
               An aspiring Software Developer 🚀 having an experience of building Web applications 
               with JavaScript / Reactjs / Nodejs / Express and some other cool libraries and frameworks.
