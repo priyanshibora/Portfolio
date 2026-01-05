@@ -9,7 +9,7 @@ export function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
-              Hi, I'm <span className="text-primary">Priyanshi</span> 👋
+              Hi, I'm <span className="text-primary">Priyanshi</span>👋
             </h1>
             <p className="text-muted-foreground max-w-lg leading-relaxed">
               An aspiring Software Developer 🚀 having an experience of building Web applications 
