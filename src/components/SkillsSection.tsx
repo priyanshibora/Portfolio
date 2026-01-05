@@ -17,6 +17,10 @@ const skillCategories = [
     title: "Core Concepts",
     skills: ["RESTful APIs", "JWT Authentication", "Data Structures & Algorithms", "Basic AI/ML"],
   },
+  {
+    title: "UI/UX",
+    skills: ["Figma"],
+  },
 ];
 
 export function SkillsSection() {
