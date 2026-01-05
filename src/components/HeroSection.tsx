@@ -15,9 +15,8 @@ export function HeroSection() {
               Aspiring Software Developer
             </h2>
             <p className="text-muted-foreground max-w-lg leading-relaxed">
-              Hands-on experience building full-stack web applications with a strong focus on 
-              JavaScript, Node.js, Express, and SQL/NoSQL databases. I'm passionate about 
-              building maintainable systems with real use cases.
+              An aspiring Software Developer 🚀 having an experience of building Web applications 
+              with JavaScript / Reactjs / Nodejs / Express and some other cool libraries and frameworks.
             </p>
 
             <div className="flex items-center gap-4">
